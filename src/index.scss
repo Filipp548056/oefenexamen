@@ -1,1 +1,15 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+#banner {
+    height: 600px;
+    background: url('/server-rack.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin-top: -74px;
+    color: $light;
+}
+
+.ms-1 {
+    margin-left: ($spacer * 15) !important;
+}
