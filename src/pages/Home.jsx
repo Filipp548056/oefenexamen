@@ -78,8 +78,6 @@ const Home = () => {
           <Col>
           <button>Get Started Today</button>
           </Col>
-
-
         </Row>
       </Container>
 
