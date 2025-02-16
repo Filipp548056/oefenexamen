@@ -41,7 +41,7 @@ const Home = () => {
           </Row>
         </Container>
 
-        <Container className="py-5 text-center bg-light">
+        <Container className="py-5 text-center bg-Lightblue">
           <Row>
             <Col className="py-5">
               <h2>Why choose cloud nexes</h2>
@@ -61,7 +61,7 @@ const Home = () => {
               <p>dfsdfsdafsafsadfdasf</p>
             </Col>
           </Row>
-          <Row md={4} className="py-5 text-center justify-content-center bg-light">
+          <Row md={4} className="py-5 text-center justify-content-center">
             <Col className="justify-content-center" >
               <h2>one</h2>
               <p>asdasd</p>
@@ -71,22 +71,30 @@ const Home = () => {
               <p>dsfgdsafgsahjfgsdahjfgshajfgsadhjfgdsahkjfgdhsajfgas</p>
             </Col>
           </Row>
-          <Row className="text-center bg-light">
+          <Row className="text-center">
             <Col>
-              <button>Get Started Today</button>
+              <button className="bg-blue">Get Started Today</button>
             </Col>
           </Row>
         </Container>
-        <Container>
-
+        <Container className="justify-content-center text-center p-4 bg-light">
           <Row >
-            <Col>
-            <h1>a Hosting partener you can trust(not)</h1>
+            <Col className="ms-2">
+            <h3>A HOSTING YOU CAN TRUST(not)</h3>
+            </Col>
+          </Row>
+          <Row className=" justify-content-center" >
+            <Col md={5} className="justify-content-end d-flex">
+            <img src="/harddisks-in-server.jpg" width="150px"></img>
+            </Col>
+            <Col md={5} className="d-flex text-start">
+            <p>at cloud nexus we dont just provide hosting: we provide peace of mind.
+              Our nission is to deliver
+            </p>
             </Col>
           </Row>
           <Row>
             <Col>
-            <img src="/server-rack.jpg" width="150px"></img>
             </Col>
           </Row>
         </Container>
