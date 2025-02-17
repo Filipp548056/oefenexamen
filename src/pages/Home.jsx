@@ -8,13 +8,12 @@ import Container from "react-bootstrap/Container"
 const Home = () => {
   return (
     <>
-      <Container className="justify-content-center">
-        
-        <Container>
+      <Container >
+
+       <Container id="banner" className="d-flex flex-column justify-content-center text-center">
           <Row >
-            <Col>
-              <h1>Welcome to cloud nexus</h1>
-              <img src="/server-rack.jpg" width="100%" />
+            <Col md={8} className="mx-auto">
+              <h1>Welcome to Cloud Nexus</h1>
             </Col>
           </Row>
         </Container>
@@ -77,17 +76,17 @@ const Home = () => {
         <Container className="justify-content-center text-center p-4 bg-light">
           <Row >
             <Col className="ms-2">
-            <h3>A HOSTING YOU CAN TRUST(not)</h3>
+              <h3>A HOSTING YOU CAN TRUST(not)</h3>
             </Col>
           </Row>
           <Row className=" justify-content-center" >
             <Col md={5} className="justify-content-end d-flex">
-            <img src="/harddisks-in-server.jpg" width="150px"></img>
+              <img src="/harddisks-in-server.jpg" width="150px"></img>
             </Col>
             <Col md={5} className="d-flex text-start">
-            <p>at cloud nexus we dont just provide hosting: we provide peace of mind.
-              Our nission is to deliver
-            </p>
+              <p>at cloud nexus we dont just provide hosting: we provide peace of mind.
+                Our nission is to deliver
+              </p>
             </Col>
           </Row>
           <Row>

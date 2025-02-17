@@ -1,7 +1,15 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 $custom-border-radius: 20px;
-$light: #3453ec;
+$light: #6170c4;
 
+
+#banner {
+    background: url('server-rack.jpg') ;
+    background-size: cover;
+    height:  100vh;
+
+   
+}
 
 .border{
     border-radius: $custom-border-radius;
