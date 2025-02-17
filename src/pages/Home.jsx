@@ -9,14 +9,16 @@ const Home = () => {
   return (
     <>
       <Container className="justify-content-center">
+        <div id="banner">
         <Container>
           <Row >
             <Col>
-              <h1>home page</h1>
+              <h1>Welcome to cloud nexus</h1>
               <img src="/server-rack.jpg" width="100%" />
             </Col>
           </Row>
         </Container>
+        </div>
         <Container className="text-center">
           <Row >
             <Col>
