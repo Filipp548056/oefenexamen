@@ -1,6 +1,7 @@
 import React from "react";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container"
 
 
@@ -8,35 +9,30 @@ const Home = () => {
   return (
     <>
       <Container className="justify-content-center">
-
         <Container>
-          <Row>
+          <Row >
             <Col>
               <h1>home page</h1>
               <img src="/server-rack.jpg" width="100%" />
             </Col>
           </Row>
-
         </Container>
-
         <Container className="text-center">
-          <Row>
+          <Row >
             <Col>
-              <h1>
-                YOUR PARTNER IS RELIABLE SCALEBLE GOSTING SOLUTIONSSSSSS
-              </h1>
+              <h1>YOUR PARTNER IS RELIABLE SCALEBLE GOSTING SOLUTIONSSSSSS</h1>
             </Col>
           </Row>
 
-          <Row className="justify-content-center ">
+          <Row className="justify-content-center p-5">
             <Col md={4}>
               <p>
                 At cloud nexus we provide cutting edge hosting services designed to empower buisnines and inviduals
                 to succeed in a fast-paced digtal world. Whatever you're launching a startup a managing a growing enterprise
               </p>
             </Col>
-            <Col md={3}>
-              <img src="/computer-monitor-in-datacenter.jpg" width="300px"></img>
+            <Col md={3} >
+              <img src="/computer-monitor-in-datacenter.jpg" className="border" width="250px"></img>
             </Col>
           </Row>
         </Container>
@@ -98,10 +94,7 @@ const Home = () => {
             </Col>
           </Row>
         </Container>
-
       </Container>
-
-
 
     </>
   );

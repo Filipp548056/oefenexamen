@@ -1,4 +1,5 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+$custom-border-radius: 20px;
 
 #banner {
     height: 600px;
@@ -8,6 +9,11 @@
     flex-direction: column;
     margin-top: -74px;
     color: $light;
+}
+
+.border{
+    border-radius: $custom-border-radius;
+      
 }
 
 .ms-1 {
