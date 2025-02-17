@@ -2,15 +2,6 @@
 $custom-border-radius: 20px;
 $light: #3453ec;
 
-#banner {
-    height: 600px;
-    background: url('/server-rack.jpg') no-repeat center center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    margin-top: -74px;
-    color: $light;
-}
 
 .border{
     border-radius: $custom-border-radius;

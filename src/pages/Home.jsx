@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <Container className="justify-content-center">
-        <div id="banner">
+        
         <Container>
           <Row >
             <Col>
@@ -18,7 +18,6 @@ const Home = () => {
             </Col>
           </Row>
         </Container>
-        </div>
         <Container className="text-center">
           <Row >
             <Col>
